@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 32" fill="none">
+  <!-- Icon Background & Border -->
+  <rect x="0" y="0" width="32" height="32" rx="8" fill="#0f172a" stroke="#06b6d4" stroke-opacity="0.3" stroke-width="1"/>
+  
+  <!-- Icon Symbol -->
+  <path d="M21 11L16 6L6 16L16 26L21 21" stroke="#22d3ee" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M16 12.25L12.25 16L16 19.75" stroke="#22d3ee" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Text -->
+  <text x="42" y="22" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="18" letter-spacing="0.05em" fill="#ffffff">
+    CODE<tspan fill="#ffffff">QUEST</tspan>
+  </text>
+</svg>
