@@ -1,11 +1,10 @@
-export const Header = () => {
+import React from 'react';
+
+export const Header: React.FC = () => {
   return (
     <header className="h-12 bg-[#0d1117] border-b border-[#30363d] px-4 flex items-center justify-between text-xs font-semibold text-[#8b949e]">
       
-      
       <div className="flex items-center gap-6">
-        
-        {/* CodeQuest Logo */}
         <div className="flex items-center gap-2 cursor-pointer">
           <div className="w-6 h-6 rounded bg-[#0d1117] border border-[#06b6d4]/30 flex items-center justify-center">
             <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4 text-[#22d3ee]">
@@ -18,7 +17,6 @@ export const Header = () => {
           </span>
         </div>
 
-        {/* Nav Links */}
         <nav className="flex items-center gap-4">
           <a href="#problems" className="bg-[#21262d] text-white px-3 py-1.5 rounded border border-[#30363d]">
             Explore Problems
@@ -35,7 +33,7 @@ export const Header = () => {
         </nav>
       </div>
 
-      {/* Right Section: Auth Actions */}
+  
       <div className="flex items-center gap-3">
         <button className="bg-[#22d3ee] hover:bg-[#38bdf8] text-slate-950 font-bold px-3 py-1 rounded transition">
           Login
@@ -48,7 +46,8 @@ export const Header = () => {
           />
         </div>
       </div>
-
     </header>
   );
 };
+
+export default Header;
