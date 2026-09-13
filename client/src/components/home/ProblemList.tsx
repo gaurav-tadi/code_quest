@@ -1,4 +1,5 @@
-import { problems, type Difficulty } from "../../data/problems";
+import { problems } from "../../data/problems";
+import type { Difficulty } from "../../types/problems";
 
 const difficultyClasses: Record<Difficulty, string> = {
   Easy: "text-emerald-400",
